@@ -47,5 +47,5 @@ if distance < 1.0:
         print "before 23"
 else:
     print "closed"
-    sendText(""Garage Door is Closed.")
+    sendText("Garage Door is Closed.")
 
