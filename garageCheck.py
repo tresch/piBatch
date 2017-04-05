@@ -13,11 +13,8 @@ def sendText(messageBody):
 
     # Prepare actual message
     message = """\
-    From: %s
-    To: %s
-
     %s
-    """ % (FROM, ", ".join(TO), TEXT)
+    """ % (TEXT)
 
     server = smtplib.SMTP(SERVER)
     server.sendmail(FROM, TO, message)
